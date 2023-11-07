@@ -1,0 +1,218 @@
+    1  cd [200~C:\Users\Mayogat\Desktop~
+    2  cd C:\Users\Mayogat\Desktop
+    3  ls
+    4  cd Desktop
+    5  cd 1942
+    6  git clone https://github.com/choi5983/1942.git
+    7  clear
+    8  c..
+    9  cd ..
+   10   mkdir basic_repo
+   11  cd basic_repo
+   12  touch index.html
+   13  ls
+   14  git init
+   15  git status
+   16  git add index.html
+   17  git commit -m "Remote repo practice"
+   18  git config --global user.email victorthuntulwana@gmail.com
+   19  git config --global user.name "Victor Thuntulwana"
+   20  git config --global color.ui auto
+   21  git status
+   22  git commit -m "Remote repo practice"
+   23  git log
+   24  git remote add origin https://github.com/victorthuntulwana/basic_repo
+   25  git push origin master
+   26  git status
+   27  git add git.html
+   28  git add index.html
+   29  git commit -m "added some changes"
+   30  git push origin master
+   31  mysql -u root -p
+   32  ls
+   33  cd [200~Desktop/
+   34  cd desktop
+   35  touch index.html
+   36  touch style. css
+   37  touch secret.txt
+   38  touch secret.css
+   39  touch hidden.txt
+   40  mkdir log docs
+   41  ls
+   42  mkdir log_docs
+   43  git init
+   44  git add
+   45  git status
+   46  git add hidden.txt
+   47  git add index.html
+   48  git add secret.css
+   49  git add secret.txt
+   50  git add css
+   51  git add style.
+   52  git add style
+   53  git status
+   54  git commit -m "index.html"
+   55  ls
+   56  git status
+   57  rm style.
+   58  rm css
+   59  ls
+   60  git status
+   61  git add index.html
+   62  git status
+   63  git add gitignore.txt
+   64  git status
+   65  git commit -m
+   66  git commit -m "gitignore"
+   67  git log
+   68  git clone https://github.com/victorthuntulwana/git_demo.git
+   69  pwd
+   70  ls
+   71  git init
+   72  git status
+   73  git clone https://github.com/victorthuntulwana/git_demo.git
+   74  git add demo_index.html
+   75  git satus
+   76  git status
+   77  ls
+   78  ls
+   79  git add demo_index.html
+   80  git init
+   81  git init
+   82  ls
+   83  git add demo_index.html
+   84  git init
+   85  ls
+   86  git init
+   87  git clone https://github.com/victorthuntulwana/git_demo.git
+   88  ls
+   89  touch index.html
+   90  ls
+   91  open .
+   92  cd git_demo
+   93  ls
+   94  git add .
+   95  git commit -m "Updated demo_index.html and created another file called index.html"
+   96  git push origin main
+   97  cd /
+   98  cd 'update and comit'
+   99  cd 'Update and Commit'
+  100  cd ..
+  101  ls
+  102  pwd
+  103  ls
+  104  rm index.html
+  105  cd git_demo
+  106  ls
+  107  git init
+  108  git status
+  109  git push origin main
+  110  cd .
+  111  cd .
+  112  cd ..
+  113  git push origin main
+  114  git status
+  115  git add .
+  116  git commit -m
+  117  git commit -m "changes executed"
+  118  git push origin main
+  119  git clone https://github.com/victorthuntulwana/BeginningBash.git
+  120  ls
+  121  cd BeginningBash
+  122  ls
+  123  ls /
+  124  git status
+  125  git commit -a
+  126  git status
+  127  touch question_3.md
+  128  ls
+  129  touch question_4.md
+  130  touch question_5.md
+  131  touch question_6.md
+  132  touch question_7.md
+  133  touch question_8.md
+  134  touch question_9.md
+  135  touch question_10.md
+  136  touch question_11.md
+  137  touch question_12.md
+  138  touch question_13.md
+  139  ls
+  140  git status
+  141  git add -A
+  142  git status
+  143  git commit -m "Questions to be answered"
+  144  git status
+  145  git commit -a
+  146  git status
+  147  git commit -a
+  148  git status
+  149  git commit -a
+  150  ls
+  151  cd ..
+  152  cd BeginningBash
+  153  git status
+  154  git commit -a
+  155  cd +1
+  156  cd +2
+  157  cd ...
+  158  cd ../..
+  159  cd -
+  160  cd home
+  161  man git-commit
+  162  man git commit
+  163  man git add
+  164  git status
+  165  git commit -a
+  166  git push origin main
+  167  mkdir git-basic-exercises 
+  168  cd git-basic-exercises
+  169  ls -a
+  170  git init
+  171  ls -a
+  172  git status
+  173  touch README.md
+  174  git status
+  175  git log
+  176  git add .
+  177  git status 
+  178  git reset README.md
+  179  git status
+  180  git add .
+  181  git commit -m "initial commit"
+  182  git log
+  183  q
+  184  nano README.md
+  185  cat README.md
+  186  git status
+  187  git add .
+  188  git commit -m "second commit"
+  189  nano README.md
+  190  git status
+  191  git add .
+  192  git commit -m "third commit"
+  193  git log
+  194  git checkout c10944865917cee265c895eac837721f866cd768
+  195  cat README.md
+  196  git checkout master
+  197  cat README.md
+  198  git branch
+  199  git branch milkshake-flavours
+  200  git branch
+  201  git switch
+  202  git branch milkshake-flavours
+  203  git checkout milkshake-flavours
+  204  git branch
+  205  nano milkshakes.md
+  206  git status
+  207  git add .
+  208  git commit -m "added initial flavours"
+  209  git log
+  210  git checkout master
+  211  git log
+  212  git branch history
+  213  git log
+  214  git branch
+  215  git checkout history
+  216  git log
+  217  git branch
+  218  history > history.txt
